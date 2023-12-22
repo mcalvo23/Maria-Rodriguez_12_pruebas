@@ -1,0 +1,34 @@
+*{margin: 0%; padding: 0%; box-sizing: border-box;}
+
+body {
+    font-family: 'Caveat', cursive;
+}
+
+.menu-container {
+    text-align: center;
+}
+
+.menu-list {
+    list-style: none;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+    display: flex;
+    border: solid black 3px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: 150px;
+}
+
+.menu-item h2 {
+    margin: 5px;
+}
+
+.menu-item p {
+    margin: 5px;
+}
