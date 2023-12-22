@@ -1,0 +1,49 @@
+*{margin: 0%; padding: 0%; box-sizing: border-box;}
+
+body{
+    background: rgb(151,131,193);
+    background: linear-gradient(90deg, rgba(151,131,193,1) 0%, rgba(246,140,167,1) 48%);
+}
+
+.game {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.player {
+    position: relative;
+    text-align: center;
+}
+
+.player__image {
+    width: 150px;
+    height: 150px;
+}
+
+.player__score {
+    margin-top: 10px;
+}
+
+.fight-button {
+    text-align: center;
+}
+
+.fight-button__btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.attack-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 0, 0, 0.7);
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
