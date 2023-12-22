@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.mh-400 {
+    max-height: 410px;
+}
+
+.mw-400 {
+    max-width: 400px;
+}
+
+.min-100vh {
+    min-height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-just-center {
+    justify-content: center;
+}
+
+.flex-al-center {
+    align-items: center;
+}
+
+.bg-blue,
+span {
+    background-color: aquamarine;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-8-column {
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.grid-8-row {
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.laberinto {
+    background-color: #000;
+    gap: 10px;
+    padding: 10px;
+}
+
+span {
+    position: relative;
+}
+
+.square {
+    aspect-ratio: 1/1;
+}
+
+.after-right::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    height: 100%;
+    width: 10px;
+    background-color: aquamarine;
+}
+
+.after-left::after {
+    content: '';
+    position: absolute;
+    left: -10px;
+    height: 100%;
+    width: 10px;
+    background-color: aquamarine;
+}
+
+.before-bottom::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 10px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.before-top::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    height: 10px;
+    width: 100%;
+    background-color: aquamarine;
+}
