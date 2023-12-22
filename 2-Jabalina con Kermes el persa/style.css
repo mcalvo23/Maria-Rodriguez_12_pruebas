@@ -1,0 +1,49 @@
+*{margin: 0%; padding: 0%; box-sizing: border-box;}
+
+.game-container {
+  position: relative;
+  height: 100vh;
+}
+
+.game-container__world-map {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.game-container__kermes-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 150px;
+  max-height: 150px;
+  z-index: 1; 
+}
+
+.game-container__result-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: red; 
+  display: none;
+}
+
+
+.game-container__throw-javelin {
+  position: absolute;
+  bottom: 10px;
+  right: 150px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2; 
+}
+
+.javelin {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+}
